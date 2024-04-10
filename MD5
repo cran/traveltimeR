@@ -1,9 +1,9 @@
-6ad18df0f7b6911d62e582704458cf19 *DESCRIPTION
+6bb62fe1b5bebb5a97d3d968b88ec3fc *DESCRIPTION
 de1c47cdcd88dabd195885e0977788a4 *LICENSE
 67c66c18d7ea1b4f6bd54036fd7ea649 *NAMESPACE
 60afc54978eb26812316888a649f7f53 *R/geocoding.R
 dd0ab3b3aadda65302929279cf55a72d *R/geocoding_reverse.R
-f19d830a9068bf6772cc7d68c9695305 *R/make_searches.R
+5d10f5d02b056f798335992f63568c9f *R/make_searches.R
 d89b36578c1da94268ffc7b590e99114 *R/map-info.R
 4f349587ebf3456a6805245f95ba0248 *R/routes.R
 dd66f6a8a3f76919bfc178c661af4494 *R/supported_locations.R
@@ -18,7 +18,7 @@ d52edd2c75bdc7e3d44a40c696ddcb7f *R/time_map.R
 30b0c1704af012c29f847c44af1fe2eb *R/time_map_fast.R
 6fbc0070e702b3285175896ae2e13339 *R/utils.R
 2e1e2eb87effafc795965c159f5180e5 *R/zzz.R
-c23128e434285b1465bdfc61600d2009 *README.md
+3b1764bdb381cc256c66de9ff5936144 *README.md
 0e9c14f75d2d11208fd3e1fc70ebfe12 *inst/proto/TimeFilterFastRequest.proto
 a62f5adf2c1c105ba046e54c2360209f *inst/proto/TimeFilterFastResponse.proto
 d48b80d78f9295333a508aba2c5dfe95 *man/geocoding.Rd

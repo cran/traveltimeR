@@ -6,12 +6,10 @@ Time-based searching gives users more opportunities for personalisation and deli
 
 ## Installation
 
-You can install the development version from
-[GitHub](https://github.com/) with:
+You can install Travel Time R SDK hosted on [CRAN repository](https://CRAN.R-project.org/package=traveltimeR) with the following command:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("traveltime-dev/traveltime-sdk-r")
+install.packages("traveltimeR")
 ```
 
 ### System requirements
@@ -72,6 +70,25 @@ result <-
     departure_searches = departure_search,
     arrival_searches = arrival_search
   )
+
+print(result)
+```
+
+### [Isochrones (Time Map) Fast](https://docs.traveltime.com/api/reference/isochrones-fast)
+A very fast version of Isochrone API. However, the request parameters are much more limited.
+
+```r
+arrival_search <-
+make_search(id = "public transport to Trafalgar Square",
+            travel_time = 900,
+            coords = list(lat = 51.507609, lng = -0.128315),
+            arrival_time_period = "weekday_morning",
+            transportation = list(type = "public_transport"))
+
+result <-
+time_map_fast(
+  arrival_many_to_one = arrival_search
+)
 
 print(result)
 ```
@@ -177,7 +194,6 @@ print(result)
 ### [Time Filter (Fast)](https://docs.traveltime.com/api/reference/time-filter-fast)
 A very fast version of `time_filter()`.
 However, the request parameters are much more limited.
-Currently only supports UK and Ireland.
 
 ```r
 locations <-
