@@ -1,10 +1,10 @@
-a94c1048958b6a3f78eb14f02c70d13e *DESCRIPTION
+c73609dfc53e2a6528c255c99c59e42e *DESCRIPTION
 de1c47cdcd88dabd195885e0977788a4 *LICENSE
 4fb279f1e25b60d14fc67184a34f6667 *NAMESPACE
 69cad511cce93dcd89bdd9776b8758f9 *R/distance_map.R
 60afc54978eb26812316888a649f7f53 *R/geocoding.R
 dd0ab3b3aadda65302929279cf55a72d *R/geocoding_reverse.R
-eee5b6ae6a4ba250a4f70a0082b4572a *R/make_searches.R
+31ea98105122390f3f0ee7e3f5f60bcc *R/make_searches.R
 d89b36578c1da94268ffc7b590e99114 *R/map-info.R
 4f349587ebf3456a6805245f95ba0248 *R/routes.R
 dd66f6a8a3f76919bfc178c661af4494 *R/supported_locations.R
